@@ -1,13 +1,13 @@
-// dependencies
+// Dependencies
 import webpackMerge from 'webpack-merge';
 
-//webpack Configuration
+// Webpack Configuration
 import commonConfig from './webpack.config.common';
 
-//configuration
+// Configuration
 import { context, entry, externals, name, output, plugins, target } from './configuration';
 
-//Type of Configuration
+// Type of Configuration
 const type = 'server';
 
 export default webpackMerge(commonConfig(type), {

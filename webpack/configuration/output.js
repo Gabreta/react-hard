@@ -1,7 +1,7 @@
-//dependencies
+// Dependencies
 import path from 'path';
 
-export default type =>{
+export default type => {
   if (type === 'server') {
     return {
       filename: 'server.js',

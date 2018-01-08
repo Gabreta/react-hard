@@ -1,4 +1,4 @@
-//dependencies
+// Dependencies
 import path from 'path';
 
 export default type => type === 'server'

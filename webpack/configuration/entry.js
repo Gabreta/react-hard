@@ -12,7 +12,6 @@ export default type => {
 
   if (isDevelopment) {
     entry.main.push(
-      //Hacer que al refrescar un archivo sin reiniciar servidor
       'webpack-hot-middleware/client',
       'react-hot-loader/patch'
     );
