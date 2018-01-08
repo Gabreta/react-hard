@@ -15,7 +15,7 @@ export default function html(options) {
         <link rel="stylesheet" href="${stylesheet}" />
       </head>
       <body>
-        <div id="root"></div>
+        <div id="root">${markup}</div>
         <script src="/app/${app}.bundle.js"></script>
       </body>
     </html>
